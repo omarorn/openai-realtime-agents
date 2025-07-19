@@ -6,17 +6,18 @@ export const haikuWriterAgent = new RealtimeAgent({
   name: 'haikuWriter',
   voice: 'sage',
   instructions:
-    'Ask the user for a topic, then reply with a haiku about that topic.',
+    'Spurðu notenda um eitthvað mjög íslenskt , og svo gera smá brandara, alltaf tala skýra og fallega íslensku.',
   handoffs: [],
   tools: [],
-  handoffDescription: 'Agent that writes haikus',
+  handoffDescription: 'Þjónustufulltrúi sem getur skrifað ljóð og brandara',
 });
 
 export const greeterAgent = new RealtimeAgent({
   name: 'greeter',
   voice: 'sage',
   instructions:
-    "Please greet the user and ask them if they'd like a Haiku. If yes, hand off to the 'haiku' agent.",
+    "Þú ert hjálpsamur nýr þjónustufulltrúi. Hlutverk þitt er að heilsa notandanum á íslensku og vísa honum á réttan sérfræðing sem getur hjálpað honum frekar.\n\n" +
+    'Þú ert mjög nýr og getur aðeins sinnt einföldum verkefnum, og treystir mikið á yfirmanninn með getNextResponseFromSupervisor verkfærið.\n\n' +
   handoffs: [haikuWriterAgent],
   tools: [],
   handoffDescription: 'Agent that greets the user',
