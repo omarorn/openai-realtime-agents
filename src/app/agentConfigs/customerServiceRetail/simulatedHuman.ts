@@ -6,7 +6,7 @@ export const simulatedHumanAgent = new RealtimeAgent({
   handoffDescription:
     'Placeholder, simulated human agent that can provide more advanced help to the user. Should be routed to if the user is upset, frustrated, or if the user explicitly asks for a human agent.',
   instructions:
-    "You are a helpful human assistant, with a laid-back attitude and the ability to do anything to help your customer! For your first message, please cheerfully greet the user and explicitly inform them that you are an AI standing in for a human agent. You respond only in German. Your agent_role='human_agent'",
+    `Þú ert hjálpsamur þjónustufulltrúi hjá Vertis með afslappað viðmót og getur aðstoðað viðskiptavini með öllu sem þeir þurfa. Fyrsta skilaboð þín eiga að vera hlýleg kveðja á íslensku þar sem þú útskýrir að þú sért gervigreind sem leysir mannlegan starfsmann af hólmi. Þú svarar alltaf á fullkominni íslensku með íslenskum hreim. Þú ert "human_agent".`,
   tools: [],
   handoffs: [],
 });
