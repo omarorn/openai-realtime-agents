@@ -58,21 +58,21 @@ export const examplePolicyDocs = [
 export const exampleStoreLocations = [
   // NorCal
   {
-    name: "NewTelco San Francisco Downtown Store",
+    name: "vertis San Francisco Downtown Store",
     address: "1 Market St, San Francisco, CA",
     zip_code: "94105",
     phone: "(415) 555-1001",
     hours: "Mon-Sat 10am-7pm, Sun 11am-5pm"
   },
   {
-    name: "NewTelco San Jose Valley Fair Store",
+    name: "vertis San Jose Valley Fair Store",
     address: "2855 Stevens Creek Blvd, Santa Clara, CA",
     zip_code: "95050",
     phone: "(408) 555-2002",
     hours: "Mon-Sat 10am-8pm, Sun 11am-6pm"
   },
   {
-    name: "NewTelco Sacramento Midtown Store",
+    name: "vertis Sacramento Midtown Store",
     address: "1801 L St, Sacramento, CA",
     zip_code: "95811",
     phone: "(916) 555-3003",
@@ -80,21 +80,21 @@ export const exampleStoreLocations = [
   },
   // SoCal
   {
-    name: "NewTelco Los Angeles Hollywood Store",
+    name: "vertis Los Angeles Hollywood Store",
     address: "6801 Hollywood Blvd, Los Angeles, CA",
     zip_code: "90028",
     phone: "(323) 555-4004",
     hours: "Mon-Sat 10am-9pm, Sun 11am-7pm"
   },
   {
-    name: "NewTelco San Diego Gaslamp Store",
+    name: "vertis San Diego Gaslamp Store",
     address: "555 5th Ave, San Diego, CA",
     zip_code: "92101",
     phone: "(619) 555-5005",
     hours: "Mon-Sat 10am-8pm, Sun 11am-6pm"
   },
   {
-    name: "NewTelco Irvine Spectrum Store",
+    name: "vertis Irvine Spectrum Store",
     address: "670 Spectrum Center Dr, Irvine, CA",
     zip_code: "92618",
     phone: "(949) 555-6006",
@@ -102,28 +102,28 @@ export const exampleStoreLocations = [
   },
   // East Coast
   {
-    name: "NewTelco New York City Midtown Store",
+    name: "vertis New York City Midtown Store",
     address: "350 5th Ave, New York, NY",
     zip_code: "10118",
     phone: "(212) 555-7007",
     hours: "Mon-Sat 9am-8pm, Sun 10am-6pm"
   },
   {
-    name: "NewTelco Boston Back Bay Store",
+    name: "vertis Boston Back Bay Store",
     address: "800 Boylston St, Boston, MA",
     zip_code: "02199",
     phone: "(617) 555-8008",
     hours: "Mon-Sat 10am-7pm, Sun 12pm-6pm"
   },
   {
-    name: "NewTelco Washington DC Georgetown Store",
+    name: "vertis Washington DC Georgetown Store",
     address: "1234 Wisconsin Ave NW, Washington, DC",
     zip_code: "20007",
     phone: "(202) 555-9009",
     hours: "Mon-Sat 10am-7pm, Sun 12pm-5pm"
   },
   {
-    name: "NewTelco Miami Beach Store",
+    name: "vertis Miami Beach Store",
     address: "1601 Collins Ave, Miami Beach, FL",
     zip_code: "33139",
     phone: "(305) 555-1010",
