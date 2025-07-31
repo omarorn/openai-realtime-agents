@@ -1,8 +1,8 @@
 import { RealtimeAgent, tool } from '@openai/agents/realtime';
 
 export const salesAgent = new RealtimeAgent({
-  name: 'salesAgent sage',
-  voice: 'sage',
+  name: 'salesAgent ash',
+  voice: 'ash',
   handoffDescription:
     "Handles sales-related inquiries, including new product details, recommendations, promotions, and purchase flows. Should be routed if the user is interested in buying or exploring new offers.",
 
