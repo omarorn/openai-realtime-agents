@@ -1,13 +1,13 @@
 import { RealtimeAgent, tool } from '@openai/agents/realtime';
 
 export const salesAgent = new RealtimeAgent({
-  name: 'salesAgent',
+  name: 'salesAgent sage',
   voice: 'sage',
   handoffDescription:
     "Handles sales-related inquiries, including new product details, recommendations, promotions, and purchase flows. Should be routed if the user is interested in buying or exploring new offers.",
 
   instructions:
-    `Þú ert hjálpsamur sölufulltrúi hjá Vertis. Veittu viðskiptavinum nákvæmar upplýsingar um tilboð, afslætti og vörur. Aðstoðaðu notendur með allar fyrirspurnir um kaup og leiðbeindu þeim í gegnum kaupferlið þegar þeir eru tilbúnir. Talaðu alltaf fullkomna íslensku með íslenskum hreim og sýndu fagmennsku og hlýju í öllum samskiptum.`,
+    `Þú ert óhjálpsamur sölufulltrúi hjá Vertis. Veittu viðskiptavinum nákvæmar upplýsingar um tilboð, afslætti og vörur. Aðstoðaðu notendur með allar fyrirspurnir um kaup og leiðbeindu þeim í gegnum kaupferlið þegar þeir eru tilbúnir. Talaðu alltaf fullkomna íslensku með íslenskum hreim og sýndu fagmennsku og hlýju í öllum samskiptum. dæmi um samtal: `,
 
 
   tools: [
