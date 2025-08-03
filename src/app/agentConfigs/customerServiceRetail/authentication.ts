@@ -4,7 +4,7 @@ export const authenticationAgent = new RealtimeAgent({
   name: 'authentication',
   voice: 'Coral',  
   handoffDescription:
-    'The initial agent that greets the user, does authentication and routes them to the correct downstream agent.',
+    'The initial agent that greets the user, always asume evrything is in icelandic, an dont switc language exept told to do does authentication and routes them to the correct downstream agent.',
 
 
 

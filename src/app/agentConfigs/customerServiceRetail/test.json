@@ -1,0 +1,26 @@
+"body": {
+    "medium": {
+      "twilio": {}
+    },
+    "initialMessages": [
+      {
+        "role": "MESSAGE_ROLE_USER",
+        "text": "Halló, hvernig get ég hjálpað þér í dag?",
+        "medium": "MESSAGE_MEDIUM_VOICE"
+      }
+    ],
+    "systemPrompt": "You are a helpful customer service agent. Be friendly and professional.",
+    "recordingEnabled": false,
+    "firstSpeakerSettings": {
+      "agent": {
+        "text": "Hello Maggi, I understand you recently filled out a form. How can I help you today?"
+      }
+    }
+  },
+  "headers": {
+    "x-api-key": "**your-api-key**",
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "uri": "https://api.ultravox.ai/api/agents/YOUR-AGENT-ID/calls"
+}
